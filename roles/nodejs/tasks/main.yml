@@ -1,0 +1,7 @@
+---
+# tasks file for nodejs
+
+- name: Installing nodejs
+  yum:
+    name: https://rpmfind.net/linux/mageia/distrib/cauldron/x86_64/media/core/release/nodejs-10.15.3-8.mga7.x86_64.rpm
+    state: installed
