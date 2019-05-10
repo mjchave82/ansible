@@ -6,7 +6,7 @@
   yum:
     update_cache: true
     name: ["curl", "gcc-c++", "make"]
-    state: present
+    state: installed
 - name: curl the LTS setup
   get_url:
     dest: "{{ ansible_env.HOME }}/nodesetup"
